@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Performance Benchmarks for Adobe India Hackathon 2025
-Demonstrates system capabilities and constraint compliance
-"""
+
 
 import time
 import psutil
@@ -19,7 +16,7 @@ from round1a.outline_extractor import OutlineExtractor
 from round1b.persona_analyzer import PersonaAnalyzer
 
 class PerformanceBenchmark:
-    """Comprehensive performance benchmarking system."""
+  
     
     def __init__(self):
         self.pdf_processor = PDFProcessor()
@@ -28,7 +25,7 @@ class PerformanceBenchmark:
         self.results = {}
     
     def benchmark_round_1a(self, test_files: List[str]) -> Dict[str, Any]:
-        """Benchmark Round 1A performance."""
+       
         print("=== Round 1A Performance Benchmark ===")
         
         start_time = time.time()
