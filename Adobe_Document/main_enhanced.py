@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Enhanced Main Script for Adobe India Hackathon 2025
-Demonstrates professional development practices and comprehensive capabilities
-"""
+
 
 import os
 import sys
@@ -24,7 +21,6 @@ from error_handler import ErrorHandler, safe_execute
 from performance_benchmarks import PerformanceBenchmark
 
 class EnhancedPDFIntelligenceSystem:
-    """Enhanced PDF Intelligence System with professional features."""
     
     def __init__(self, verbose: bool = False):
         self.verbose = verbose
