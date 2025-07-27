@@ -409,7 +409,7 @@ We welcome contributions! Please see our contributing guidelines:
 ### Development Setup
 ```bash
 git clone <repo-url>
-cd Dr.Document
+cd Adobe_Document
 pip install -r requirements.txt
 python test_system.py
 ```
