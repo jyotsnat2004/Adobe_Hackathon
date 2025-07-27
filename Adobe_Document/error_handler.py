@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Enhanced Error Handling System for Adobe India Hackathon 2025
-Demonstrates professional error handling and system robustness
-"""
+
 
 import logging
 import traceback
@@ -13,7 +10,6 @@ from datetime import datetime
 import json
 
 class ErrorHandler:
-    """Comprehensive error handling system."""
     
     def __init__(self, log_file: str = "system_errors.log"):
         self.log_file = log_file
