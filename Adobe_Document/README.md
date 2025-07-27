@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![Docker](https://img.shields.io/badge/Docker-Ready-green.svg)](https://docker.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 ## 📋 Table of Contents
 
@@ -58,7 +58,7 @@ Analyze document collections based on specific personas and job requirements, pr
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd Dr.Document
+cd Adobe_Document
 
 # Install dependencies
 pip install -r requirements.txt
@@ -110,7 +110,7 @@ python-dateutil==2.8.2  # Date/time utilities
 
 ### Directory Structure
 ```
-Dr.Document/
+Adobe_Document/
 ├── input/                    # 📁 Place your PDF files here
 │   ├── document1.pdf
 │   ├── document2.pdf
@@ -235,7 +235,7 @@ Performs persona-driven analysis on document collection.
 ## 🏗️ Architecture
 
 ```
-Dr.Document/
+Adobe_Document/
 ├── round1a/                          # 🔍 Round 1A Components
 │   ├── main.py                       # Entry point (Docker)
 │   ├── main_local.py                 # Entry point (Local)
@@ -409,7 +409,7 @@ We welcome contributions! Please see our contributing guidelines:
 ### Development Setup
 ```bash
 git clone <repo-url>
-cd Dr.Document
+cd Adobe_Document
 pip install -r requirements.txt
 python test_system.py
 ```
